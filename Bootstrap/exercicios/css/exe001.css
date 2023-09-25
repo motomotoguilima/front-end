@@ -1,0 +1,31 @@
+
+@media(min-width: 768px){
+    .principal{
+        background-image: url(601b19a109ae320210203214609_1.jpeg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+
+
+@media(min-width: 992px){
+    .principal{
+        background-image: url(download.webp);
+        background-repeat: no-repeat;
+    }
+}
+
+@media(min-width: 1200px){
+    .principal{
+        background-image: url(download.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media(min-width: 1400px){
+    .principal{
+        background-image: url(philips-ambientada.webp);
+        background-repeat: no-repeat;
+        background:cover ;
+    }
+}

@@ -1,0 +1,14 @@
+.planodeFundo {
+    background-image: url(1117c3183269abba289e5a0e310be0f1.png);
+}
+
+.div-1 {
+    background-color: rgb(204, 193, 18, 0.1);
+    width: 400px;
+    height: 780px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px 2px black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}

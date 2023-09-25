@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumaria guilhario</title>
+    <!--icones do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<style>
+    img {
+        width: 500px;
+        height: 500px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    body {
+        background-color: rgba(197, 209, 197, 1);
+    }
+</style>
+
+<body>
+    <nav class="navbar  navbar-dark navbar-expand-sm fixed-top" style="background-color:black">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <div class="d-flex gap-5">
+                    <h1 class="fs-3">Perfumaria guilhario</h1>
+
+                </div>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="menu">
+                <div class="navbar-nav d-flex  justify-content-between  w-100">
+                    <div class="d-flex">
+                        <a href="exe12.html" class="fs-6 nav-link">principal</a>
+                        <a href="exe14.html" class="nav-link">contato</a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="exe016.html" class="nav-link">quero me cadastrar</a>
+                        <a href="exe15.html" class="nav-link">entrar</a>
+                        <div class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">rede social</a>
+                            <ul class="dropdown-menu ">
+                                <li>
+                                    <a href="https://www.instagram.com" class="dropdown-item"><i
+                                            class="bi bi-instagram mx-1"></i>instagram</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com" class="dropdown-item"><i
+                                            class="bi bi-facebook mx-1"></i>facebook</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com" class="dropdown-item"><i
+                                            class="bi bi-youtube mx-1"></i>youtube</a>
+                                </li>
+                                <li>
+                                    <a href="https://web.whatsapp.com" class="dropdown-item"><i
+                                            class="bi bi-whatsapp mx-1"></i>whatsapp</a>
+                                </li>
+                                <li>
+                                    <a href="https://web.twitter.com" class="dropdown-item"><i
+                                            class="bi bi-twitter mx-1"></i>twitter</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <main class="container">
+        <!--sessao do carrosel-->
+        <section class="carousel carousel-dark slide" data-bs-ride="carousel" id="meuCarrossel">
+
+            <!--indicadores do banner-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+            </div>
+            <!-- lista de imagens - banner-->
+            <div class="carousel-inner ">
+                <!--imagem-->
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="toque-de-perfume-lojas-santa-efigenia-capa.jpg" class="d-block w-100 ">
+                    <div class="carousel-caption">
+                        <button class="btn btn-dark">BLACK FRIDAY!!!!</button>
+                        <br><br><br><br>
+                        <h1 class="fs-1 text-white ">FRETE GRÁTIS</h1>
+                        <p class="fs-4 text-white">PARA PEDIDOS ACIMA DE R$ 150,00</p>
+                    </div>
+                </div>
+                <!--imagem 2-->
+                <div class="carousel-item">
+                    <img src="260269-3.jpg" class="w-100 d-block">
+                    <div class="carousel-caption">
+                        <p class="fs-4 text-white">lancamento novo da chanel Nº5</p>
+                    </div>
+                </div>
+
+                <!--imagem 3-->
+                <div class="carousel-item">
+                    <img src="images.jpg" class="w-100 d-block">
+                    <div class="carousel-caption">
+                        <p class="fs-4 text-white">novo perfume de antonio bandeiras,so encontre aqui!</p>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <hr class="container">
+    <div class="container d-flex mt-5">
+        <div class="d-flex col-4 ">
+            <div class="col-6"><input type="text" class="form-control" placeholder="digite oq quiser "></div>
+            <div class="col-8 "> <a href="exe13.html" class="btn btn-dark col-3">buscar</a></div>
+        </div>
+        <div class="col-4 d-flex justify-content-end">
+            <ul class="pagination">
+                <li class="page-item  ">
+                    <a href="#" class="page-link ">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link ">2</a>
+                </li>
+                <li class="page-item ">
+                    <a href="#" class="page-link ">3</a>
+                </li>
+                <li class="page-item ">
+                    <a href="#" class="page-link ">4</a>
+                </li>
+                <li class="page-item ">
+                    <a href="#" class="page-link ">5</a>
+                </li>
+                <li class="page-item ">
+                    <a href="#" class="page-link ">6</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-4 d-flex justify-content-end ">
+            <select>
+                <option value="">ordernar pelo nome</option>
+            </select>
+        </div>
+    </div>
+
+
+    <hr class="container">
+
+
+    <h1 class="container d-flex justify-content-center text-dark ">perfumes masculinos</h1>
+    <main class="container">
+        <section class="row gap-0">
+            <!--card 1-->
+            <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                <div class="card ">
+                    <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal" src="9518357020702.webp"
+                        alt="">
+                    <div class="card">
+                        <h5 class="card-title">BLEU DE CHANEL</h5>
+                    </div>
+                    <h3>R$880,00</h3>
+                    <h6>em até 10x de R$ 88,00 </h6>
+                    <div class="d-flex gap-1 p-1">
+                        <button class="btn btn-dark"> comprar </button>
+                        <button class="btn btn-light"> adicionar á sacola <i class="bi bi-bag-fill"></i></button>
+                    </div>
+                </div>
+
+                <!--modal-->
+                <div class="modal fade" id="imagemModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>descrição</h5>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Um tributo à liberdade masculina em uma fragrância amadeirada aromática com rastro
+                                cativante. Um
+                                perfume atemporal, mantido em um frasco de cor azul profunda e misteriosa.
+                                BLEU DE CHANEL Eau de Toilette expressa uma elegância simples e intensa.
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-fluid" src="9518357020702.webp" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--card 2-->
+            <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                <div class="card">
+                    <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal1"
+                        src="194604-1600-auto.webp" alt="">
+                    <div class="card">
+                        <h5 class="card-title">Invictus</h5>
+                    </div>
+                    <h3>R$836,90</h3>
+                    <h6>em até 10x de R$ 83,69</h6>
+                    <div class="d-flex gap-1 p-1 ">
+                        <button class="btn btn-dark"> comprar </button>
+                        <button class="btn btn-light"> adicionar á sacola <i class="bi bi-bag-fill"></i></button>
+                    </div>
+                </div>
+
+                <!--modal-->
+                <div class="modal fade" id="imagemModal1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>descrição</h5>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                O Perfume Invictus Victory é um perfume Paco Rabanne oriental âmbar masculino.
+                                Penetrante, poderoso e surpreendente, celebra a masculinidade moderna com elegância e
+                                sutileza.
+
+
+                                A fragrância de Invictus Victory, de Paco Rabanne, traz a combinação perfeita entre a
+                                refrescância e a sensualidade. Além de toda a vivacidade do Limão, aqui destacada por um
+                                incenso superpoderoso, o aroma conta ainda com o carisma enigmático da Fava Tonka e a
+                                intensidade magnética do doce (e irresistível)
+                                Baunilha. Forte e envolvente, Invictus Victory é a pedida perfeita para incrementar o
+                                visual de homens verdadeiramente invencíveis.
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-fluid" src="194604-1600-auto.webp" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--card 3-->
+
+            <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                <div class="card">
+                    <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal2"
+                        src="8435415012607.3_1000px.webp" alt="">
+                    <div class="card">
+                        <h5 class="card-title">JEAN PAUL</h5>
+                    </div>
+                    <h3>R$349,00</h3>
+                    <h6>10x de R$ 34,90</h6>
+                    <div class="d-flex gap-1 p-1 ">
+                        <button class="btn btn-dark"> comprar </button>
+                        <button class="btn btn-light"> adicionar á sacola <i class="bi bi-bag-fill"></i></button>
+                    </div>
+                </div>
+
+                <!--modal-->
+                <div class="modal fade" id="imagemModal2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>descrição</h5>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Le Male, de Jean Paul Gaultier,
+                                é um perfume importado masculino símbolo de sedução e virilidade.
+                                A fragrância best-seller e multifacetada da icônica marca presta homenagem a uma
+                                figura simbólica que há muito tempo é fonte de inspiração: o marinheiro.
+                                Tão viril quanto sexy, o perfume oferece uma visão não-conformista e inconvencional da
+                                masculinidade.
+
+                                Este perfume Eau de Toilette é reconfortante e possui uma trilha aromática
+                                extremamente moderna. A lavanda, que lembra o cheiro familiar e reconfortante do sabão
+                                de barbear,
+                                é realçada e transformada pela sensualidade da baunilha para trazer uma fragrância
+                                oriental ao portfólio de Jean Paul Gaultier.
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-fluid" src="8435415012607.3_1000px.webp" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--card 4-->
+            <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                <div class="card">
+                    <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal3"
+                        src="p1_60ml_3348901250153_1500px.avif" alt="">
+                    <div class="card">
+                        <h5 class="card-title">DIOR</h5>
+                    </div>
+                    <h3>R$483,00</h3>
+                    <h6>10x de R$ 48,30</h6>
+                    <div class="d-flex gap-1 p-1">
+                        <button class="btn btn-dark"> comprar </button>
+                        <button class="btn btn-light"> adicionar á sacola <i class="bi bi-bag-fill"></i></button>
+                    </div>
+                </div>
+
+                <!--modal-->
+                <div class="modal fade" id="imagemModal3">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>descrição</h5>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Um tributo à liberdade masculina em uma fragrância amadeirada aromática com rastro
+                                cativante. Um
+                                perfume atemporal, mantido em um frasco de cor azul profunda e misteriosa.
+                                BLEU DE CHANEL Eau de Toilette expressa uma elegância simples e intensa.
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="p1_60ml_3348901250153_1500px.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--card 5-->
+            <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                <div class="card">
+                    <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal4"
+                        src="737052351001_hb_bb_19_edt_30ml.jpg-png_1500px.avif" alt="">
+                    <div class="card">
+                        <h5 class="card-title">HUGO BOSS</h5>
+                    </div>
+                    <h3>R$239,00</h3>
+                    <h6>10x de R$ 23,90</h6>
+                    <div class="d-flex gap-1 p-1 ">
+                        <button class="btn btn-dark"> comprar </button>
+                        <button class="btn btn-light"> adicionar á sacola <i class="bi bi-bag-fill"></i></button>
+                    </div>
+                </div>
+
+                <!--modal-->
+                <div class="modal fade" id="imagemModal4">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>descrição</h5>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Um tributo à liberdade masculina em uma fragrância amadeirada aromática com rastro
+                                cativante. Um
+                                perfume atemporal, mantido em um frasco de cor azul profunda e misteriosa.
+                                BLEU DE CHANEL Eau de Toilette expressa uma elegância simples e intensa.
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-fluid" src="737052351001_hb_bb_19_edt_30ml.jpg-png_1500px.avif" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--card 6-->
+            <div class="col-12 col-md-6 col-lg-3 col-xl-2 m-2">
+                <div class="card">
+                    <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal5"
+                        src="51tKpgc7ZxL._AC_SX522_.jpg" alt="">
+                    <div class="card">
+                        <h5 class="card-title">PERFUME 212 VIP </h5>
+                    </div>
+                    <h3>R$349,00</h3>
+                    <h6>ou 10x de R$ 34,90</h6>
+                    <div class="d-flex gap-1 p-1 ">
+                        <button class="btn btn-dark"> comprar </button>
+                        <button class="btn btn-light"> adicionar á sacola <i class="bi bi-bag-fill"></i></button>
+                    </div>
+                </div>
+
+                <!--modal-->
+                <div class="modal fade" id="imagemModal5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>descrição</h5>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Perfume masculino aromático fougére. 212 VIP Black Carolina Herrera é intenso como
+                                um shot de absinto, para homens que sabem viver a noite.
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-fluid" src="51tKpgc7ZxL._AC_SX522_.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="container d-flex justify-content-center text-dark">perfumes femininos</h1>
+            <main class="container">
+                <section class="row gap-0">
+                    <!--card 1-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2 ">
+                        <div class="card ">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal6"
+                                src="gg_30ml_1_2000px.avif" alt="">
+                            <div class="card">
+                                <h5 class="card-title">CAROLINA HERRERA</h5>
+                            </div>
+                            <h3>R$399,00</h3>
+                            <h6>em até 10x de R$ 39,90 </h6>
+                            <div class="d-flex gap-1 p-1">
+                                <button class="btn btn-dark"> comprar </button>
+                                <button class="btn btn-light"> adicionar á sacola <i
+                                        class="bi bi-bag-fill"></i></button>
+                            </div>
+                        </div>
+
+                        <!--modal-->
+                        <div class="modal fade" id="imagemModal6">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>descrição</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        O perfume feminino importado Good Girl Eau de Parfum é uma fragrância ousada e
+                                        altamente sofisticada, inspirada na visão única de Carolina Herrera sobre a
+                                        dualidade da mulher
+                                        moderna: ao mesmo tempo poderosa e divertida, elegante e sexy, gentil e
+                                        misteriosa.
+
+                                        A combinação olfativa de Good Girl é um marco na perfumaria mundial, ápice de
+                                        inovação, tecnologia e sofisticação.
+                                        O aroma de Good Girl é ao mesmo tempo um perfume intenso, refrescante e
+                                        cativante. As doces qualidades do jasmim
+                                        trazem uma leve feminilidade à fragrância, enquanto o cacau ricamente perfumado
+                                        e a Tonka predominante expressam o
+                                        lado misterioso de Good Girl. Notas de amêndoa e café evocam o espírito de
+                                        vibração ousada. Notas brilhantes de Tuberose e
+                                        Jasmine Sambac, cacau rico e atraente Tonka Bean expressam o lado sedutor da
+                                        Good Girl,
+                                        enquanto Almond revela sua natureza rebelde.
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-fluid" src="gg_30ml_1_2000px.avif" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--card 2-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                        <div class="card">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal7"
+                                src="9518352924702.webp" alt="">
+                            <div class="card">
+                                <h5 class="card-title">COCO MADEMOISELLE</h5>
+                            </div>
+                            <h3>R$1160,00</h3>
+                            <h6>em até 10x de R$ 116,99</h6>
+                            <div class="d-flex gap-1 p-1 ">
+                                <button class="btn btn-dark"> comprar </button>
+                                <button class="btn btn-light"> adicionar á sacola <i
+                                        class="bi bi-bag-fill"></i></button>
+                            </div>
+                        </div>
+
+                        <!--modal-->
+                        <div class="modal fade" id="imagemModal7">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>descrição</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        COCO MADEMOISELLE.
+                                        A essência de uma mulher audaciosa e livre. Um ambarado feminino de
+                                        personalidade forte e um frescor surpreendente.
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-fluid" src="9518352924702.webp" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 3-->
+
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                        <div class="card">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal8"
+                                src="0549eb2c63ff2b835d1e9806d755f70d.webp" alt="">
+                            <div class="card">
+                                <h5 class="card-title">Carolina Herrera 212 Vip Rose</h5>
+                            </div>
+                            <h3>R$153,00</h3>
+                            <h6>2x de R$ 75,90</h6>
+                            <div class="d-flex gap-1 p-1 ">
+                                <button class="btn btn-dark"> comprar </button>
+                                <button class="btn btn-light"> adicionar á sacola <i
+                                        class="bi bi-bag-fill"></i></button>
+                            </div>
+                        </div>
+
+                        <!--modal-->
+                        <div class="modal fade" id="imagemModal8">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>descrição</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Esse delicioso perfume de cabelos é
+                                        composto de três acordes: ACORDE DE CHAMPANHE ROSÉ: o champanhe
+                                        rosé tem lugar de honra entre as melhores notas. Como uma risadinha, as bolhas
+                                        cor de rosa anunciam o tom festivo e despreocupado da fragrância refrescante e
+                                        bem frutada. ACORDE DE FLOR DE PÊSSEGO: no coração do 212 VIP ROSÉ encontramos a
+                                        flor de pêssego. Estas flores, com seus frutos aveludados, adicionam delicadeza
+                                        e ternura
+                                        à fragrância. A personificação perfeita da feminilidade. ACORDE DE ANGICO:
+                                        finalmente, como
+                                        nota principal de base, temos o angico. Angico é um acorde amadeirado viciante,
+                                        elegante e sutil,
+                                        que dá à fragrância uma grande dose de sensualidade. Família Olfativa:
+                                        Amadeirado Floral Notas de Coração:
+                                        Champagne e notas frutadas Notas de fundo: Flor
+                                        de pêssego Notas do coração: Notas amadeiradas, almíscar branco e âmbar.
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-fluid" src="0549eb2c63ff2b835d1e9806d755f70d.webp" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 4-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                        <div class="card">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal9" src="ll.avif"
+                                alt="">
+                            <div class="card">
+                                <h5 class="card-title">LANCÔME</h5>
+                            </div>
+                            <h3>R$309,00</h3>
+                            <h6>10x de R$ 30,98</h6>
+                            <div class="d-flex gap-1 p-1">
+                                <button class="btn btn-dark"> comprar </button>
+                                <button class="btn btn-light"> adicionar á sacola <i
+                                        class="bi bi-bag-fill"></i></button>
+                            </div>
+                        </div>
+
+                        <!--modal-->
+                        <div class="modal fade" id="imagemModal9">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>descrição</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        La Vie Est Belle é um perfume buquê floral Gourmand da Lancôme, considerado a
+                                        essência da felicidade. A fragrância é uma verdadeira declaração de alegria
+                                        encapsulada em um sorriso de cristal.
+
+                                        Imagine-se imersa em uma atmosfera de alegria e feminilidade vibrante, onde cada
+                                        nota celebra a beleza da vida.
+
+                                        Essa é a magia do La Vie Est Belle, uma fragrância emblemática que envolve seus
+                                        sentidos e eleva sua alma, transportando-a para um mundo de pura plenitude.
+                                        <div class="modal-body">
+                                            <img class="img-fluid" src="ll.avif" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--card 5-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                        <div class="card">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal10"
+                                src="8835357900830.webp" alt="">
+                            <div class="card">
+                                <h5 class="card-title">N°5</h5>
+                            </div>
+                            <h3>R$555,00</h3>
+                            <h6>10x de R$ 55,90</h6>
+                            <div class="d-flex gap-1 p-1 ">
+                                <button class="btn btn-dark"> comprar </button>
+                                <button class="btn btn-light"> adicionar á sacola <i
+                                        class="bi bi-bag-fill"></i></button>
+                            </div>
+                        </div>
+
+                        <!--modal-->
+                        <div class="modal fade" id="imagemModal10">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>descrição</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Acondicionada em uma versão transparente e fosca do frasco icônico, a bruma para
+                                        o cabelo N°5,
+                                        enriquecida com um ingrediente ativo derivado da rosa e do jasmim, dispersa as
+                                        notas sutis do perfume e deixa o cabelo brilhante e sedoso.
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-fluid" src="8835357900830.webp" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 6-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-2  m-2">
+                        <div class="card">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#imagemModal11"
+                                src="download.webp" alt="">
+                            <div class="card">
+                                <h5 class="card-title">YVES SAINT LAURENT </h5>
+                            </div>
+                            <h3>R$354,00</h3>
+                            <h6>ou 5x de R$ 70,90</h6>
+                            <div class="d-flex gap-1 p-1 ">
+                                <button class="btn btn-dark"> comprar </button>
+                                <button class="btn btn-light"> adicionar á sacola <i
+                                        class="bi bi-bag-fill"></i></button>
+                            </div>
+                        </div>
+
+                        <!--modal-->
+                        <div class="modal fade" id="imagemModal11">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>descrição</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Libre Eau de Parfum é a nova fragrância da liberdade, uma fragrância de
+                                        declaração para quem vive de acordo com suas próprias regras. Uma reinvenção do
+                                        perfume floral, combina a Essência de Lavanda da França com a sensualidade da
+                                        Flor de Laranjeira Marroquina, para uma fusão floral única complementada por uma
+                                        nota ousada do Acordo de Almíscar. Libre significa livre.
+
+                                        É uma celebração da liberdade: uma fragrância para quem faz o que quer e ousa
+                                        ser exatamente quem é. A garrafa é uma declaração de alta costura com uma tampa
+                                        assimétrica preta como um vestido sexy de alta costura, correntes de ouro em
+                                        volta do pescoço que lembram os icônicos sacos YSL it, complementados com o
+                                        atemporal logotipo Yves Saint Laurent.
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-fluid" src="download.webp" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="bnt btn-secondary" data-bs-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

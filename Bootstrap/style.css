@@ -1,0 +1,39 @@
+@media (max-width: 575px)
+{
+    .principal{
+        background-color: red;
+        background-image: url(img);
+    } 
+}
+
+@media(min-width: 576px){
+    .principal{
+        background-color: blue;
+    }
+}
+
+@media(min-width: 768px){
+    .principal{
+        background-color: rgb(18, 167, 21);
+    }
+}
+
+
+@media(min-width: 992px){
+    .principal{
+        background-color: rgb(162, 16, 145);
+    }
+}
+
+@media(min-width: 1200x){
+    .principal{
+        background-color: rgb(255, 230, 0);
+    }
+}
+
+@media(min-width: 1400px){
+    .principal{
+        background-color: rgb(0, 255, 140);
+    }
+}
+
